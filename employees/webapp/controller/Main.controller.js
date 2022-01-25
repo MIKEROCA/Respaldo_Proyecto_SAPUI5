@@ -11,7 +11,7 @@ sap.ui.define([
     function (Controller, JSONModel, MessageBox) {
         //'use strict';
 
-        return Controller.extend("logaligroup.employees.controller.Main", {
+        return Controller.extend("logali.employees.controller.Main", {
 
             onBeforeRendering: function () {
                 this._detailEmployeeView = this.getView().byId("detailEmployeeView");
